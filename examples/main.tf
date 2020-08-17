@@ -10,9 +10,10 @@ output "vpc-us-east-2" {
 }
 
 
+
 provider "aws" {
   access_key="provide access key"
   secret_key="provide secret key"
-  region = "us-east-2"
+  region = "enter region"
 }
 
